@@ -24,8 +24,8 @@ dependencies:
     specifier: 5.0.17
     version: 5.0.17
   postal-mime:
-    specifier: ^2.2.1
-    version: 2.2.6
+    specifier: ^2.2.7
+    version: 2.2.7
   talk-like-a:
     specifier: ^2.0.0
     version: 2.0.0
@@ -830,8 +830,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postal-mime@2.2.6:
-    resolution: {integrity: sha512-FNobloQOyMgpWr5LdllmVjy9QAHoi3qmTmEb7CBcHjXTQNcPV2FuvUBC0YLbSiMZxyQmip47nlCVd9EqZL2EIg==}
+  /postal-mime@2.2.7:
+    resolution: {integrity: sha512-13BykdDhBz5QCJ3tVWKW6eTX3ghLqlxm6CxS91AanUptB53+csbIyDW4KdP+IzYZHF+xZ2CkTiBTK+k0/3vR8w==}
     dev: false
 
   /printable-characters@1.0.42:
@@ -930,8 +930,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /ufo@1.5.3:
-    resolution: {integrity: sha512-Y7HYmWaFwPUmkoQCUIAYpKqkOf+SbVj/2fJJZ4RJMCfZp0rTGwRbzQD+HghfnhKOjL9E01okqz+ncJskGYfBNw==}
+  /ufo@1.5.4:
+    resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
     dev: true
 
   /undici-types@5.26.5:
@@ -952,7 +952,7 @@ packages:
       mime: 3.0.0
       node-fetch-native: 1.6.4
       pathe: 1.1.2
-      ufo: 1.5.3
+      ufo: 1.5.4
     dev: true
 
   /workerd@1.20240718.0:
