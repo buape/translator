@@ -20,7 +20,7 @@
 		"common-tags": "^1.8.2",
 		"discord-api-types": "0.37.94",
 		"discord-verify": "1.2.0",
-		"itty-router": "5.0.17",
+		"itty-router": "5.0.18",
 		"postal-mime": "^2.2.1",
 		"talk-like-a": "^2.0.0"
 	}
