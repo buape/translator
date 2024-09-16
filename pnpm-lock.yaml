@@ -24,8 +24,8 @@ dependencies:
     specifier: 5.0.18
     version: 5.0.18
   postal-mime:
-    specifier: ^2.2.1
-    version: 2.2.8
+    specifier: ^2.2.9
+    version: 2.2.9
   talk-like-a:
     specifier: ^2.0.0
     version: 2.0.0
@@ -812,8 +812,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /ohash@1.1.3:
-    resolution: {integrity: sha512-zuHHiGTYTA1sYJ/wZN+t5HKZaH23i4yI1HMwbuXm24Nid7Dv0KcuRlKoNKS9UNfAVSBlnGLcuQrnOKWOZoEGaw==}
+  /ohash@1.1.4:
+    resolution: {integrity: sha512-FlDryZAahJmEF3VR3w1KogSEdWX3WhA5GPakFx4J81kEAiHyLMpdLLElS8n8dfNadMgAne/MywcvmogzscVt4g==}
     dev: true
 
   /path-parse@1.0.7:
@@ -833,8 +833,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postal-mime@2.2.8:
-    resolution: {integrity: sha512-dr4rxjQc97vzHBoh1mbiQA//LC0ZcS3R6nSPrNF//WBXcc+pfg3pfiYDBiBQdgMegdN324ISzbanVmjlfFA9Mg==}
+  /postal-mime@2.2.9:
+    resolution: {integrity: sha512-FdRay7ifK2i6wl6431OsRhRS2QMaMJ0PFAQoe3R1auM14Bz+gojqV9/rng6gXK6JZ+XzVS1C8v2QBbvu3M2quA==}
     dev: false
 
   /printable-characters@1.0.42:
@@ -951,7 +951,7 @@ packages:
     resolution: {integrity: sha512-r+VIl1gnsI4WQxluruSQhy8alpAf1AsLRLm4sEKp3otCyTIVD6I6wHEYzeQnwsyWgaD4+3BD4A/eqrgOpdTzhw==}
     dependencies:
       defu: 6.1.4
-      ohash: 1.1.3
+      ohash: 1.1.4
       pathe: 1.1.2
       ufo: 1.5.4
     dev: true
