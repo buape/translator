@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"dotenv": "16.4.6",
+		"dotenv": "16.4.7",
 		"wrangler": "3.91.0"
 	},
 	"dependencies": {
