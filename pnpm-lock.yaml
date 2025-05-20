@@ -38,8 +38,8 @@ devDependencies:
     specifier: 16.5.0
     version: 16.5.0
   wrangler:
-    specifier: 4.15.2
-    version: 4.15.2(@cloudflare/workers-types@4.20250520.0)
+    specifier: 4.16.0
+    version: 4.16.0(@cloudflare/workers-types@4.20250520.0)
 
 packages:
 
@@ -138,16 +138,16 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/unenv-preset@2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250508.0):
-    resolution: {integrity: sha512-Xq57Qd+ADpt6hibcVBO0uLG9zzRgyRhfCUgBT9s+g3+3Ivg5zDyVgLFy40ES1VdNcu8rPNSivm9A+kGP5IVaPg==}
+  /@cloudflare/unenv-preset@2.3.2(unenv@2.0.0-rc.17)(workerd@1.20250508.0):
+    resolution: {integrity: sha512-MtUgNl+QkQyhQvv5bbWP+BpBC1N0me4CHHuP2H4ktmOMKdB/6kkz/lo+zqiA4mEazb4y+1cwyNjVrQ2DWeE4mg==}
     peerDependencies:
-      unenv: 2.0.0-rc.15
-      workerd: ^1.20250320.0
+      unenv: 2.0.0-rc.17
+      workerd: ^1.20250508.0
     peerDependenciesMeta:
       workerd:
         optional: true
     dependencies:
-      unenv: 2.0.0-rc.15
+      unenv: 2.0.0-rc.17
       workerd: 1.20250508.0
     dev: true
 
@@ -740,13 +740,11 @@ packages:
     dependencies:
       color-name: 1.1.4
     dev: true
-    optional: true
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     requiresBuild: true
     dev: true
-    optional: true
 
   /color-string@1.9.1:
     resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==}
@@ -755,7 +753,6 @@ packages:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
     dev: true
-    optional: true
 
   /color@4.2.3:
     resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
@@ -765,7 +762,6 @@ packages:
       color-convert: 2.0.1
       color-string: 1.9.1
     dev: true
-    optional: true
 
   /common-tags@1.8.2:
     resolution: {integrity: sha512-gk/Z852D2Wtb//0I+kRFNKKE9dIIVirjoqPoA1wJU+XePVXZfGeBpk45+A1rKO4Q43prqWBNY/MiIeRLbPWUaA==}
@@ -790,7 +786,6 @@ packages:
     engines: {node: '>=8'}
     requiresBuild: true
     dev: true
-    optional: true
 
   /discord-api-types@0.38.8:
     resolution: {integrity: sha512-xuRXPD44FcbKHrQK15FS1HFlMRNJtsaZou/SVws18vQ7zHqmlxyDktMkZpyvD6gE2ctGOVYC/jUyoMMAyBWfcw==}
@@ -873,7 +868,6 @@ packages:
     resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
     requiresBuild: true
     dev: true
-    optional: true
 
   /itty-router@5.0.18:
     resolution: {integrity: sha512-mK3ReOt4ARAGy0V0J7uHmArG2USN2x0zprZ+u+YgmeRjXTDbaowDy3kPcsmQY6tH+uHhDgpWit9Vqmv/4rTXwA==}
@@ -885,8 +879,8 @@ packages:
     hasBin: true
     dev: true
 
-  /miniflare@4.20250508.2:
-    resolution: {integrity: sha512-+2XoHLSbY49LNQgZoAJRX+SyUwC767Cz46pgx4T/j1YGKSrMzAxCOk59b12QoFNnN50Gtd9HkT3ukZn2nzrIVw==}
+  /miniflare@4.20250508.3:
+    resolution: {integrity: sha512-43oTmZ0CCmUcieetI5YDDyX0IiwhOcVIWzdBBCqWXK3F1XgQwg4d3fTqRyJnCmHIoaYx9CE1kTEKZC1UahPQhA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -895,6 +889,7 @@ packages:
       acorn-walk: 8.3.2
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
+      sharp: 0.33.5
       stoppable: 1.1.0
       undici: 5.28.5
       workerd: 1.20250508.0
@@ -937,7 +932,6 @@ packages:
     hasBin: true
     requiresBuild: true
     dev: true
-    optional: true
 
   /sharp@0.33.5:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
@@ -968,7 +962,6 @@ packages:
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
     dev: true
-    optional: true
 
   /simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
@@ -976,7 +969,6 @@ packages:
     dependencies:
       is-arrayish: 0.3.2
     dev: true
-    optional: true
 
   /source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
@@ -1005,8 +997,8 @@ packages:
     dev: true
     optional: true
 
-  /ufo@1.5.4:
-    resolution: {integrity: sha512-UsUk3byDzKd04EyoZ7U4DOlxQaD14JUKQl6/P7wiX4FNvUfm3XL246n9W5AmqwW5RSFJ27NAuM0iLscAOYUiGQ==}
+  /ufo@1.6.1:
+    resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
     dev: true
 
   /undici-types@5.26.5:
@@ -1020,14 +1012,14 @@ packages:
       '@fastify/busboy': 2.1.1
     dev: true
 
-  /unenv@2.0.0-rc.15:
-    resolution: {integrity: sha512-J/rEIZU8w6FOfLNz/hNKsnY+fFHWnu9MH4yRbSZF3xbbGHovcetXPs7sD+9p8L6CeNC//I9bhRYAOsBt2u7/OA==}
+  /unenv@2.0.0-rc.17:
+    resolution: {integrity: sha512-B06u0wXkEd+o5gOCMl/ZHl5cfpYbDZKAT+HWTL+Hws6jWu7dCiqBBXXXzMFcFVJb8D4ytAnYmxJA83uwOQRSsg==}
     dependencies:
       defu: 6.1.4
       exsolve: 1.0.4
       ohash: 2.0.11
       pathe: 2.0.3
-      ufo: 1.5.4
+      ufo: 1.6.1
     dev: true
 
   /workerd@1.20250508.0:
@@ -1043,8 +1035,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20250508.0
     dev: true
 
-  /wrangler@4.15.2(@cloudflare/workers-types@4.20250520.0):
-    resolution: {integrity: sha512-Rv7zP61DOVzIS3af+/1UzJkRVpqu6VDRi6uIVMiwD1LkXG5Ov08tv94jgnE9bSjVf0paQg3dl0E89h+wQ0x/Bw==}
+  /wrangler@4.16.0(@cloudflare/workers-types@4.20250520.0):
+    resolution: {integrity: sha512-zQojiBJKAWRVG4WdUgTP5/i9N5UcwOixhWljnBrcKxJd+kpqUXVV/L03ytO+0cnr5IhgYUs7qhjd8EWU6UwPfg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1054,13 +1046,13 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.0
-      '@cloudflare/unenv-preset': 2.3.1(unenv@2.0.0-rc.15)(workerd@1.20250508.0)
+      '@cloudflare/unenv-preset': 2.3.2(unenv@2.0.0-rc.17)(workerd@1.20250508.0)
       '@cloudflare/workers-types': 4.20250520.0
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
-      miniflare: 4.20250508.2
+      miniflare: 4.20250508.3
       path-to-regexp: 6.3.0
-      unenv: 2.0.0-rc.15
+      unenv: 2.0.0-rc.17
       workerd: 1.20250508.0
     optionalDependencies:
       fsevents: 2.3.3
