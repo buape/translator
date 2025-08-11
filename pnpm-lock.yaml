@@ -21,8 +21,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   itty-router:
-    specifier: 5.0.21
-    version: 5.0.21
+    specifier: 5.0.22
+    version: 5.0.22
   postal-mime:
     specifier: ^2.2.1
     version: 2.4.4
@@ -877,8 +877,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /itty-router@5.0.21:
-    resolution: {integrity: sha512-SrmsBfXtdoIkuDMTMXqCT0kYSl9OlQZLC7llHs4fE26dZlGfi0Cm4adNL7q/ygpWyoTZobZ547h5SZu/PwB+cg==}
+  /itty-router@5.0.22:
+    resolution: {integrity: sha512-9hmdGErWdYDOurGYxSbqLhy4EFReIwk71hMZTJ5b+zfa2zjMNV1ftFno2b8VjAQvX615gNB8Qxbl9JMRqHnIVA==}
     dev: false
 
   /kleur@4.1.5:
