@@ -38,8 +38,8 @@ devDependencies:
     specifier: 17.2.2
     version: 17.2.2
   wrangler:
-    specifier: 4.35.0
-    version: 4.35.0(@cloudflare/workers-types@4.20250913.0)
+    specifier: 4.36.0
+    version: 4.36.0(@cloudflare/workers-types@4.20250913.0)
 
 packages:
 
@@ -892,8 +892,8 @@ packages:
     hasBin: true
     dev: true
 
-  /miniflare@4.20250906.0:
-    resolution: {integrity: sha512-T/RWn1sa0ien80s6NjU+Un/tj12gR6wqScZoiLeMJDD4/fK0UXfnbWXJDubnUED8Xjm7RPQ5ESYdE+mhPmMtuQ==}
+  /miniflare@4.20250906.1:
+    resolution: {integrity: sha512-yuPHog7j+GKHtRaKKF3Mpwvb5SVtvmkQpY/f9Ue0xhG/fYQcaxTKVO6RAB1pUN1jSyvmDOxVEAFFVoni8GYl3g==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -904,7 +904,7 @@ packages:
       glob-to-regexp: 0.4.1
       sharp: 0.33.5
       stoppable: 1.1.0
-      undici: 7.11.0
+      undici: 7.14.0
       workerd: 1.20250906.0
       ws: 8.18.0
       youch: 4.1.0-beta.10
@@ -1002,8 +1002,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: false
 
-  /undici@7.11.0:
-    resolution: {integrity: sha512-heTSIac3iLhsmZhUCjyS3JQEkZELateufzZuBaVM5RHXdSBMb1LPMQf5x+FH7qjsZYDP0ttAc3nnVpUB+wYbOg==}
+  /undici@7.14.0:
+    resolution: {integrity: sha512-Vqs8HTzjpQXZeXdpsfChQTlafcMQaaIwnGwLam1wudSSjlJeQ3bw1j+TLPePgrCnCpUXx7Ba5Pdpf5OBih62NQ==}
     engines: {node: '>=20.18.1'}
     dev: true
 
@@ -1030,8 +1030,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20250906.0
     dev: true
 
-  /wrangler@4.35.0(@cloudflare/workers-types@4.20250913.0):
-    resolution: {integrity: sha512-HbyXtbrh4Fi3mU8ussY85tVdQ74qpVS1vctUgaPc+bPrXBTqfDLkZ6VRtHAVF/eBhz4SFmhJtCQpN1caY2Ak8A==}
+  /wrangler@4.36.0(@cloudflare/workers-types@4.20250913.0):
+    resolution: {integrity: sha512-J1sZh7ePy7BtzvIyt9ufiL6aQOW6OE0VEi9YJiyXOuaXDKrR7V5HJBTsraNdFDqXgi30mYGGBVs0mgZHGRhTBA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -1045,7 +1045,7 @@ packages:
       '@cloudflare/workers-types': 4.20250913.0
       blake3-wasm: 2.1.5
       esbuild: 0.25.4
-      miniflare: 4.20250906.0
+      miniflare: 4.20250906.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.21
       workerd: 1.20250906.0
