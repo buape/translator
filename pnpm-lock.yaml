@@ -24,8 +24,8 @@ dependencies:
     specifier: 5.0.22
     version: 5.0.22
   postal-mime:
-    specifier: ^2.7.0
-    version: 2.7.0
+    specifier: ^2.7.1
+    version: 2.7.1
   talk-like-a:
     specifier: ^2.0.0
     version: 2.0.0
@@ -924,8 +924,8 @@ packages:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
     dev: true
 
-  /postal-mime@2.7.0:
-    resolution: {integrity: sha512-6dg52BHPPOs8Rf0kupdjOcM3B5Cnz/7SvWvVBv4r3lWrdpQVwJYx8Cthu9B0jyk4LhcmjLdVuQASHbgfrctTPg==}
+  /postal-mime@2.7.1:
+    resolution: {integrity: sha512-0VslL0CLSV7PBmglwWR8eCGC5fgsdVictjOG4PEA+vvA0+QJF5SC0tV018CbvAcW4XbpbMIJNd91Dt8vTa9kbA==}
     dev: false
 
   /semver@7.7.1:
