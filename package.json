@@ -18,7 +18,7 @@
 		"@cloudflare/workers-types": "4.20260227.0",
 		"@types/common-tags": "^1.8.4",
 		"common-tags": "^1.8.2",
-		"discord-api-types": "0.38.39",
+		"discord-api-types": "0.38.40",
 		"discord-verify": "1.2.0",
 		"itty-router": "5.0.22",
 		"postal-mime": "^2.2.1",
