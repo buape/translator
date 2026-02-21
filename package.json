@@ -10,7 +10,7 @@
 		"preinstall": "npx only-allow pnpm"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.4.3",
+		"@biomejs/biome": "2.4.4",
 		"dotenv": "17.3.1",
 		"wrangler": "4.67.0"
 	},
