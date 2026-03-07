@@ -15,7 +15,7 @@
 		"wrangler": "4.71.0"
 	},
 	"dependencies": {
-		"@cloudflare/workers-types": "4.20260305.1",
+		"@cloudflare/workers-types": "4.20260307.1",
 		"@types/common-tags": "^1.8.4",
 		"common-tags": "^1.8.2",
 		"discord-api-types": "0.38.41",
