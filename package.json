@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.5.1",
 		"dotenv": "17.4.2",
-		"wrangler": "4.103.0"
+		"wrangler": "4.104.0"
 	},
 	"dependencies": {
 		"@cloudflare/workers-types": "4.20260623.1",
