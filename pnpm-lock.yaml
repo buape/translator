@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.8.2
     version: 1.8.2
   discord-api-types:
-    specifier: 0.38.50
-    version: 0.38.50
+    specifier: 0.38.51
+    version: 0.38.51
   discord-verify:
     specifier: 1.2.0
     version: 1.2.0
@@ -811,8 +811,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /discord-api-types@0.38.50:
-    resolution: {integrity: sha512-J2n/bpIETX3DQ6AJ7/0xbsTLmYiJQtO/LKcXKC1YDbB56OUwtDbdXOFE8Q4g8jVGHBR2VAy1+D4ngaIgkMNV9w==}
+  /discord-api-types@0.38.51:
+    resolution: {integrity: sha512-SnaFHd+b8Z3HgjEIoSA1wkstXCt6J0Zrxvny0BJZZz7AhmFSetRY3DMrIdO3LFDMeeTxF7WKornnAGxaws5Adw==}
     dev: false
 
   /discord-verify@1.2.0:
