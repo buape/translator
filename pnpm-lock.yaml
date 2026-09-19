@@ -35,8 +35,8 @@ devDependencies:
     specifier: 2.5.14
     version: 2.5.14
   dotenv:
-    specifier: 18.0.0
-    version: 18.0.0
+    specifier: 18.0.1
+    version: 18.0.1
   wrangler:
     specifier: 4.107.1
     version: 4.107.1(@cloudflare/workers-types@4.20260702.1)
@@ -822,8 +822,8 @@ packages:
       '@types/express': 4.17.21
     dev: false
 
-  /dotenv@18.0.0:
-    resolution: {integrity: sha512-16YSUvsKtKbwrTbESvtTSZzzJUug6jdFdqiBFg9Q6Bk1JY9r0hAtrtTiWxdI9YrsgOTmkjZRdgU0n3LnwGpECw==}
+  /dotenv@18.0.1:
+    resolution: {integrity: sha512-0eR4m4D/jH5eaI3evo2ZqqMii5mrTCR12v12VChdie6O1gPHs7XAjzTep0CWc1Bd+oNx3vVfbi734dK4zghigw==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true
