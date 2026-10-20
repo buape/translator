@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.8.2
     version: 1.8.2
   discord-api-types:
-    specifier: 0.38.56
-    version: 0.38.56
+    specifier: 0.38.57
+    version: 0.38.57
   discord-verify:
     specifier: 1.2.0
     version: 1.2.0
@@ -24,7 +24,7 @@ dependencies:
     specifier: 5.0.24
     version: 5.0.24
   postal-mime:
-    specifier: ^4.0.11
+    specifier: ^4.0.0
     version: 4.0.11
   talk-like-a:
     specifier: ^2.0.0
@@ -811,8 +811,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /discord-api-types@0.38.56:
-    resolution: {integrity: sha512-Hti4RZsGvF5C7SM8rF2MDHtIm0Hyfrlk84GpEA29nj91tvVVMvX+oQSCodu10t2ZcjFGofq8TX0YyC04B2E69Q==}
+  /discord-api-types@0.38.57:
+    resolution: {integrity: sha512-R1CTSSt4RshqCq23j2Xq2ZscvzB4LzG9OB1CYQdKUGdw8Ti/oF/72EEtK2mNpagG/Vj9NcBT7dw9lKLf+Dacfg==}
     dev: false
 
   /discord-verify@1.2.0:
